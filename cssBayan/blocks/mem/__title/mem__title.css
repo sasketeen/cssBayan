@@ -2,7 +2,7 @@
   margin: 10px 0;
   font-size: 28px;
 }
-.mem:focus .mem__title {
+.radio-btn:checked + .content__mem .mem__title {
   color: brown;
 }
 @media (hover: hover) {
@@ -10,7 +10,7 @@
     color: brown;
   }
   .mem:active .mem__title {
-    color: black;
+    color: white;
     opacity: 0.75;
   }
 }

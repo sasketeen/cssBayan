@@ -1,6 +1,8 @@
 @import '../vendor/normalize.css';
 @import '../fonts/fonts.css';
 @import '../blocks/page/page.css';
+@import '../blocks/radio-btn/radio-btn.css';
+@import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
 @import '../blocks/content/content.css';
 @import '../blocks/mem/mem.css';

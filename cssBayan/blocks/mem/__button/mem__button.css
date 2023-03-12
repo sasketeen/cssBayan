@@ -3,7 +3,7 @@
   height: 20px;
   background: url('../../../images/add.png') center/contain no-repeat;
 }
-.mem:focus .mem__button{
+.radio-btn:checked + .content__mem .mem__button{
   background-image: url('../../../images/close.png') ;
 }
 

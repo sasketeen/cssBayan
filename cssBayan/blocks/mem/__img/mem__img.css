@@ -9,7 +9,7 @@
   transition: all .3s linear;
 }
 
-.mem:hover .mem__img, .mem:focus .mem__img{
+.mem:hover .mem__img, .radio-btn:checked + .content__mem  .mem__img{
   height: max-content;
   visibility: visible;
   opacity: 1;
