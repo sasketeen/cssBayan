@@ -1,16 +1,17 @@
 .mem__img {
-  width: 100%;
+  width:0;
   max-height: 300px;
   object-fit: contain;
+  margin: 0 auto;
   visibility: hidden;
-  height: 0;
   opacity: 0;
   display: block;
   transition: all .3s linear;
 }
 
 .mem:hover .mem__img, .radio-btn:checked + .content__mem  .mem__img{
-  height: max-content;
+  width: 100%;
+  /* height: max-content; */
   visibility: visible;
   opacity: 1;
 }
