@@ -9,7 +9,7 @@
   transition: all .3s linear;
 }
 
-.mem:hover .mem__img, .radio-btn:checked + .content__mem  .mem__img{
+.radio-btn:checked + .content__mem  .mem__img{
   width: 100%;
   visibility: visible;
   opacity: 1;
@@ -17,9 +17,9 @@
 
 @media (hover: hover) {
   .mem:hover .mem__img {
+    width: 100%;
     visibility: visible;
     opacity: 1;
-    height: 300px;
   }
   .mem:active .mem__img {
     opacity: 0.5;
