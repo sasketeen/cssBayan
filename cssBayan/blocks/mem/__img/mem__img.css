@@ -1,15 +1,16 @@
 .mem__img {
   width: 100%;
+  max-height: 300px;
   object-fit: contain;
   visibility: hidden;
-  max-height: 300px;
   height: 0;
   opacity: 0;
   display: block;
   transition: all .3s linear;
 }
+
 .mem:hover .mem__img, .mem:focus .mem__img{
-  height: 100%;
+  height: max-content;
   visibility: visible;
   opacity: 1;
 }
