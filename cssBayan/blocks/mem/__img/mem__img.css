@@ -1,0 +1,26 @@
+.mem__img {
+  width: 100%;
+  object-fit: contain;
+  visibility: hidden;
+  max-height: 300px;
+  height: 0;
+  opacity: 0;
+  display: block;
+  transition: all .3s linear;
+}
+.mem:hover .mem__img, .mem:focus .mem__img{
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .mem:hover .mem__img {
+    visibility: visible;
+    opacity: 1;
+    height: 300px;
+  }
+  .mem:active .mem__img {
+    opacity: 0.5;
+  }
+}
