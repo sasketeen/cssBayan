@@ -1,0 +1,26 @@
+.mem__title {
+  margin: 10px 0;
+  font-size: 1.75rem;
+}
+.radio-btn:checked + .content__mem .mem__title {
+  color: brown;
+}
+@media (hover: hover) {
+  .content:hover .mem__title {
+    color: brown;
+  }
+  .mem:active .mem__title {
+    color: white;
+    opacity: 0.75;
+  }
+}
+@media screen and (max-width: 1919px) {
+  .mem__title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .mem__title  {
+    font-size: 1.25rem;
+  }
+}

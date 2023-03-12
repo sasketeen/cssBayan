@@ -1,0 +1,27 @@
+.mem__img {
+  width:0;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 auto;
+  visibility: hidden;
+  opacity: 0;
+  display: block;
+  transition: all .3s linear;
+}
+
+.radio-btn:checked + .content__mem  .mem__img{
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .mem:hover .mem__img {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  .mem:active .mem__img {
+    opacity: 0.5;
+  }
+}
